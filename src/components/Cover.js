@@ -1,24 +1,31 @@
 import React from 'react'
 import coverimg from '../assets/cover-image.jpg';
-//import headshot from '../assets/headshot.jpg';
 import headshot from '../assets/headshot.jpg';
 
 
 const Cover = () => {
   return (
-    <section className="hero is-info is-large">
+    <section className="hero is-danger-light">
 
-        <div className="hero-body">
-            <img src={coverimg} alt={'cover'} />
-        </div>
 
+      <div class="hero-body">
         <div class="container">
-  <div class="notification is-primary">
-  <img
-        src={headshot} alt='Headshot' className='headshot'
-        />
-  </div>
-</div>
+          <div class="columns">
+          <div className='column is-6'>
+                <img src={headshot} alt="cover" />
+            </div>
+
+            <div class="column is-6">
+              <h1 class="title is-1 ">Michael Keene </h1>
+              <hr class="content-divider" />
+              <h2 class="subtitle">Coding Bootcamp Student</h2>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    
 
         <div className="hero-foot">
             <nav className="tabs is-boxed is-fullwidth">
