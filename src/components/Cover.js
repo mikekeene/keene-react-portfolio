@@ -1,5 +1,5 @@
 import React from 'react'
-import coverimg from '../assets/cover-image.jpg';
+//import coverimg from '../assets/cover-image.jpg';
 import headshot from '../assets/headshot.jpg';
 
 
