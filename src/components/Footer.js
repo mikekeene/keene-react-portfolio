@@ -3,7 +3,7 @@ import Resume from './Resume';
 import Contact from './Contact';
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer className="footer">
         <Resume />
         <Contact />
     </footer>
