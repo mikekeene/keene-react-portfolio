@@ -2,15 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-        <a className='icon-text' href='http://github.com/mikekeene'> 
-            <span>
-                <i className='fab fa-github' />
-            </span>
-            <span>
-                GITHUB
-            </span>
-        </a>
+    <div id="contact" className="content has-text-centered">
+            <p>
+            <strong>Github: </strong> <a href='http://github.com/mikekeene' > mikekeene </a>
+            </p>
     </div>
   )
 }
