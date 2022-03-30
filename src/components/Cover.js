@@ -4,17 +4,17 @@ import coverimg from '../assets/cover-image.jpg';
 
 const Cover = () => {
   return (
-    <section class="hero is-info is-large">
+    <section className="hero is-info is-large">
 
-        <div class="hero-body">
+        <div className="hero-body">
             <img src={coverimg} alt={'cover'} />
         </div>
 
-        <div class="hero-foot">
-            <nav class="tabs is-boxed is-fullwidth">
-            <div class="container">
+        <div className="hero-foot">
+            <nav className="tabs is-boxed is-fullwidth">
+            <div className="container">
                 <ul>
-                    <li class="is-active">
+                    <li className="is-active">
                         <a href='#about'>
                             About
                         </a>
