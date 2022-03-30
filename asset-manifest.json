@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/keene-react-portfolio/static/css/main.7eff6252.css",
-    "main.js": "/keene-react-portfolio/static/js/main.7605d5a3.js",
+    "main.js": "/keene-react-portfolio/static/js/main.b5dd5409.js",
     "static/js/787.acc6d70f.chunk.js": "/keene-react-portfolio/static/js/787.acc6d70f.chunk.js",
+    "static/media/calculator.png": "/keene-react-portfolio/static/media/calculator.4b9c23d8e8a737daa8ea.png",
     "static/media/budget-tracker.png": "/keene-react-portfolio/static/media/budget-tracker.e18b968f5b46a89a0684.png",
+    "static/media/note-taker.png": "/keene-react-portfolio/static/media/note-taker.56227d88f611fe6bace5.png",
+    "static/media/ClearSkies.jpeg": "/keene-react-portfolio/static/media/ClearSkies.9392bdc05a8ac61a6edb.jpeg",
+    "static/media/MJM.png": "/keene-react-portfolio/static/media/MJM.c1e5f368524c06c30b17.png",
+    "static/media/weather-dashboard.png": "/keene-react-portfolio/static/media/weather-dashboard.cecc9becc82b3f1d9308.png",
     "static/media/cover-image.jpg": "/keene-react-portfolio/static/media/cover-image.637808af105fe8d4fca5.jpg",
+    "static/media/headshot.jpg": "/keene-react-portfolio/static/media/headshot.8ec96749b4cd4fded557.jpg",
     "index.html": "/keene-react-portfolio/index.html",
     "main.7eff6252.css.map": "/keene-react-portfolio/static/css/main.7eff6252.css.map",
-    "main.7605d5a3.js.map": "/keene-react-portfolio/static/js/main.7605d5a3.js.map",
+    "main.b5dd5409.js.map": "/keene-react-portfolio/static/js/main.b5dd5409.js.map",
     "787.acc6d70f.chunk.js.map": "/keene-react-portfolio/static/js/787.acc6d70f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7eff6252.css",
-    "static/js/main.7605d5a3.js"
+    "static/js/main.b5dd5409.js"
   ]
 }
