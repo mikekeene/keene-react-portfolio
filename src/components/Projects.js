@@ -43,7 +43,7 @@ const Projects = () => {
                     <FontAwesomeIcon icon={faLink} className="mr-2"/>
                     Github Link
                 </a>
-                <a className="subtitle" href="https://boiling-everglades-78221.herokuapp.com/" >
+                <a className="subtitle" href="https://sheltered-woodland-56293.herokuapp.com/dashboard/" >
                     <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
                     App
                 </a>
