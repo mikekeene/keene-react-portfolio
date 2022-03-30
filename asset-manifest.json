@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/keene-react-portfolio/static/css/main.7eff6252.css",
+    "main.js": "/keene-react-portfolio/static/js/main.908ed9fd.js",
+    "static/js/787.acc6d70f.chunk.js": "/keene-react-portfolio/static/js/787.acc6d70f.chunk.js",
+    "index.html": "/keene-react-portfolio/index.html",
+    "main.7eff6252.css.map": "/keene-react-portfolio/static/css/main.7eff6252.css.map",
+    "main.908ed9fd.js.map": "/keene-react-portfolio/static/js/main.908ed9fd.js.map",
+    "787.acc6d70f.chunk.js.map": "/keene-react-portfolio/static/js/787.acc6d70f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eff6252.css",
+    "static/js/main.908ed9fd.js"
+  ]
+}
