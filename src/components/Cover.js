@@ -1,6 +1,8 @@
 import React from 'react'
 import coverimg from '../assets/cover-image.jpg';
 //import headshot from '../assets/headshot.jpg';
+import headshot from '../assets/headshot.jpg';
+
 
 const Cover = () => {
   return (
@@ -9,6 +11,14 @@ const Cover = () => {
         <div className="hero-body">
             <img src={coverimg} alt={'cover'} />
         </div>
+
+        <div class="container">
+  <div class="notification is-primary">
+  <img
+        src={headshot} alt='Headshot' className='headshot'
+        />
+  </div>
+</div>
 
         <div className="hero-foot">
             <nav className="tabs is-boxed is-fullwidth">
