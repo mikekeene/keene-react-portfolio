@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section class="hero is-medium is-danger">
+    <section id="about" class="hero is-medium is-danger">
         <div class="hero-body">
             <p class="title">
                 About Me
