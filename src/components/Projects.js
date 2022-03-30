@@ -1,4 +1,6 @@
 import React from 'react'
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import budgetapp from '../assets/budget-tracker.png';
 import MJM from '../assets/MJM.png';
 import clearSkies from '../assets/ClearSkies.jpeg';
@@ -8,19 +10,26 @@ import noteTaker from '../assets/note-taker.png';
 
 const Projects = () => {
   return (
-    <div id="projects" className='columns'>
-        <div className='hero m-6'>
+    <div id="projects">
+        <div className='hero m-4'>
             <p className='title'>
                 Projects
             </p>
         </div>
-        <div className="tile is-ancestor column">
+        <div className="tile is-ancestor is-vertical">
         
             {/* budget tracker app */}
             <div className="tile is-parent">
                 <article className="tile is-child box">
                 <p className="title">Budget Tracker</p>
-                <a className="subtitle" href="https://github.com/mikekeene/Budget-Tracker-App-PWA" >Link</a>
+                <a className="subtitle" href="https://github.com/mikekeene/Budget-Tracker-App-PWA" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github
+                </a>
+                <a className="subtitle" href="https://boiling-everglades-78221.herokuapp.com/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
                 <figure className="image is-4by3">
                     <img src={budgetapp} alt={"budgetapp"}/>
                 </figure>
@@ -30,7 +39,14 @@ const Projects = () => {
             <div className="tile is-parent">
                 <article className="tile is-child box">
                 <p className="title">MJM</p>
-                <a className="subtitle" href="https://github.com/jennyk1989/MJM-Task-Master" >Github Link</a>
+                <a className="subtitle" href="https://github.com/jennyk1989/MJM-Task-Master" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github Link
+                </a>
+                <a className="subtitle" href="https://boiling-everglades-78221.herokuapp.com/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
                 <figure className="image is-4by3">
                     <img src={MJM} alt={"MJM"} />
                 </figure>
@@ -40,7 +56,14 @@ const Projects = () => {
             <div className="tile is-parent">
                 <article className="tile is-child box">
                 <p className="title">Clear Skies</p>
-                <a className="subtitle" href="https://github.com/mikekeene/project-one" >Github Link</a>
+                <a className="subtitle" href="https://github.com/mikekeene/project-one" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github Link
+                </a>
+                <a className="subtitle" href="https://mikekeene.github.io/project-one/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
                 <figure className="image is-4by3">
                     <img src={clearSkies} alt={"clearSkies"} />
                 </figure>
@@ -50,7 +73,14 @@ const Projects = () => {
             <div className="tile is-parent">
                 <article className="tile is-child box">
                 <p className="title">Calculator</p>
-                <a className="subtitle" href="https://github.com/mikekeene/Calculator" >Github Link</a>
+                <a className="subtitle" href="https://github.com/mikekeene/Calculator" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github Link
+                </a>
+                <a className="subtitle" href="https://mikekeene.github.io/Calculator/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
                 <figure className="image is-4by3">
                     <img src={calculator} alt={"calculator"} />
                 </figure>
@@ -60,7 +90,14 @@ const Projects = () => {
             <div className="tile is-parent">
                 <article className="tile is-child box">
                 <p className="title">Weather Dashboard</p>
-                <a className="subtitle" href="https://github.com/mikekeene/Weather-Dashboard" >Github Link</a>
+                <a className="subtitle" href="https://github.com/mikekeene/Weather-Dashboard" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github Link
+                </a>
+                <a className="subtitle" href="https://mikekeene.github.io/Weather-Dashboard/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
                 <figure className="image is-4by3">
                     <img src={weatherDashboard} alt={"weatherDashboard"} />
                 </figure>
@@ -70,7 +107,14 @@ const Projects = () => {
             <div className="tile is-parent">
                 <article className="tile is-child box">
                 <p className="title">Note Taker</p>
-                <a className="subtitle" href="https://github.com/mikekeene/NoteTaker" >Github Link</a>
+                <a className="subtitle" href="https://github.com/mikekeene/NoteTaker" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github Link
+                </a>
+                <a className="subtitle" href="https://mysterious-tor-38630.herokuapp.com/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
                 <figure className="image is-4by3">
                     <img src={noteTaker} alt={"noteTaker"} />
                 </figure>
