@@ -2,16 +2,14 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section class="hero is-info">
+    <figure className="hero is-danger image">
         <div class="hero-body">
             <p class="title">
-                Michael Keene
+                Portfolio
             </p>
-        <p class="subtitle">
-            Coding Bootcamp Student 
-        </p>
+        
     </div>
-    </section>
+    </figure>
 
   )
 }
