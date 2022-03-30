@@ -9,64 +9,64 @@ import noteTaker from '../assets/note-taker.png';
 const Projects = () => {
   return (
     <div id="projects">
-        <div class="tile is-ancestor">
+        <div className="tile is-ancestor">
 
             {/* budget tracker app */}
-            <div class="tile is-parent">
-                <article class="tile is-child box">
-                <p class="title">Budget Tracker</p>
-                <p class="subtitle">React</p>
-                <figure class="image is-4by3">
-                    <img src={budgetapp} alt={"budgetapp"} />
+            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">Budget Tracker</p>
+                <a className="subtitle" href="https://github.com/mikekeene/Budget-Tracker-App-PWA" >Link</a>
+                <figure className="image is-4by3">
+                    <img src={budgetapp} alt={"budgetapp"}/>
                 </figure>
                 </article>
             </div>
             {/* MJM */}
-            <div class="tile is-parent">
-                <article class="tile is-child box">
-                <p class="title">MJM</p>
-                <p class="subtitle">React</p>
-                <figure class="image is-4by3">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">MJM</p>
+                <a className="subtitle" href="https://github.com/jennyk1989/MJM-Task-Master" >Github Link</a>
+                <figure className="image is-4by3">
                     <img src={MJM} alt={"MJM"} />
                 </figure>
                 </article>
             </div>
             {/* Clear Skies */}
-            <div class="tile is-parent">
-                <article class="tile is-child box">
-                <p class="title">Clear Skies</p>
-                <p class="subtitle">React</p>
-                <figure class="image is-4by3">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">Clear Skies</p>
+                <a className="subtitle" href="https://github.com/mikekeene/project-one" >Github Link</a>
+                <figure className="image is-4by3">
                     <img src={clearSkies} alt={"clearSkies"} />
                 </figure>
                 </article>
             </div>
             {/* Calculator */}
-            <div class="tile is-parent">
-                <article class="tile is-child box">
-                <p class="title">Calculator</p>
-                <p class="subtitle">React</p>
-                <figure class="image is-4by3">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">Calculator</p>
+                <a className="subtitle" href="https://github.com/mikekeene/Calculator" >Github Link</a>
+                <figure className="image is-4by3">
                     <img src={calculator} alt={"calculator"} />
                 </figure>
                 </article>
             </div>
             {/* Weather Dashboard */}
-            <div class="tile is-parent">
-                <article class="tile is-child box">
-                <p class="title">Weather Dashboard</p>
-                <p class="subtitle">React</p>
-                <figure class="image is-4by3">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">Weather Dashboard</p>
+                <a className="subtitle" href="https://github.com/mikekeene/Weather-Dashboard" >Github Link</a>
+                <figure className="image is-4by3">
                     <img src={weatherDashboard} alt={"weatherDashboard"} />
                 </figure>
                 </article>
             </div>
             {/* Note Taker */}
-            <div class="tile is-parent">
-                <article class="tile is-child box">
-                <p class="title">Note Taker</p>
-                <p class="subtitle">React</p>
-                <figure class="image is-4by3">
+            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">Note Taker</p>
+                <a className="subtitle" href="https://github.com/mikekeene/NoteTaker" >Github Link</a>
+                <figure className="image is-4by3">
                     <img src={noteTaker} alt={"noteTaker"} />
                 </figure>
                 </article>
