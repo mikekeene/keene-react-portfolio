@@ -1,5 +1,11 @@
 import React from 'react'
 import budgetapp from '../assets/budget-tracker.png';
+import MJM from '../assets/MJM.png';
+import clearSkies from '../assets/ClearSkies.jpeg';
+import calculator from '../assets/calculator.png';
+import weatherDashboard from '../assets/weather-dashboard.png';
+import noteTaker from '../assets/note-taker.png';
+
 const Projects = () => {
   return (
     <div id="projects">
@@ -15,53 +21,53 @@ const Projects = () => {
                 </figure>
                 </article>
             </div>
-            {/* budget tracker app */}
+            {/* MJM */}
             <div class="tile is-parent">
                 <article class="tile is-child box">
-                <p class="title">Budget Tracker</p>
+                <p class="title">MJM</p>
                 <p class="subtitle">React</p>
                 <figure class="image is-4by3">
-                    <img src={budgetapp} alt={"budgetapp"} />
+                    <img src={MJM} alt={"MJM"} />
                 </figure>
                 </article>
             </div>
-            {/* budget tracker app */}
+            {/* Clear Skies */}
             <div class="tile is-parent">
                 <article class="tile is-child box">
-                <p class="title">Budget Tracker</p>
+                <p class="title">Clear Skies</p>
                 <p class="subtitle">React</p>
                 <figure class="image is-4by3">
-                    <img src={budgetapp} alt={"budgetapp"} />
+                    <img src={clearSkies} alt={"clearSkies"} />
                 </figure>
                 </article>
             </div>
-            {/* budget tracker app */}
+            {/* Calculator */}
             <div class="tile is-parent">
                 <article class="tile is-child box">
-                <p class="title">Budget Tracker</p>
+                <p class="title">Calculator</p>
                 <p class="subtitle">React</p>
                 <figure class="image is-4by3">
-                    <img src={budgetapp} alt={"budgetapp"} />
+                    <img src={calculator} alt={"calculator"} />
                 </figure>
                 </article>
             </div>
-            {/* budget tracker app */}
+            {/* Weather Dashboard */}
             <div class="tile is-parent">
                 <article class="tile is-child box">
-                <p class="title">Budget Tracker</p>
+                <p class="title">Weather Dashboard</p>
                 <p class="subtitle">React</p>
                 <figure class="image is-4by3">
-                    <img src={budgetapp} alt={"budgetapp"} />
+                    <img src={weatherDashboard} alt={"weatherDashboard"} />
                 </figure>
                 </article>
             </div>
-            {/* budget tracker app */}
+            {/* Note Taker */}
             <div class="tile is-parent">
                 <article class="tile is-child box">
-                <p class="title">Budget Tracker</p>
+                <p class="title">Note Taker</p>
                 <p class="subtitle">React</p>
                 <figure class="image is-4by3">
-                    <img src={budgetapp} alt={"budgetapp"} />
+                    <img src={noteTaker} alt={"noteTaker"} />
                 </figure>
                 </article>
             </div>
