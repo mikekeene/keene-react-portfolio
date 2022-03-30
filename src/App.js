@@ -10,13 +10,14 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
         <>
+          <Cover />
           <About />
+          <Projects />
           <Contact />
           <Resume />
-          <Projects />
         </>
       <Footer />
     </div>
