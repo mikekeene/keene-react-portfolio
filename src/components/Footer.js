@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Resume from './Resume';
+import Contact from './Contact';
 const Footer = () => {
   return (
-    <div>Cover</div>
+    <footer class="footer">
+        <Resume />
+        <Contact />
+    </footer>
   )
 }
 
