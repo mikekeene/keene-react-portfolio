@@ -1,3 +1,3 @@
-# Michael Keene the Dream Queen
+# Michael Keene
 
 https://mikekeene.github.io/keene-react-portfolio/
