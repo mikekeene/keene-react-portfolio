@@ -8,9 +8,14 @@ import noteTaker from '../assets/note-taker.png';
 
 const Projects = () => {
   return (
-    <div id="projects">
-        <div className="tile is-ancestor">
-
+    <div id="projects" className='columns'>
+        <div className='hero m-6'>
+            <p className='title'>
+                Projects
+            </p>
+        </div>
+        <div className="tile is-ancestor column">
+        
             {/* budget tracker app */}
             <div className="tile is-parent">
                 <article className="tile is-child box">
