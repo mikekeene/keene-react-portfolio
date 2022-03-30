@@ -5,10 +5,10 @@ const Header = () => {
     <section class="hero is-info">
         <div class="hero-body">
             <p class="title">
-                Michael the Scream Queen Keene
+                Michael Keene
             </p>
         <p class="subtitle">
-            High School Dropout, NO GED 
+            Coding Bootcamp Student 
         </p>
     </div>
     </section>
