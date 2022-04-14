@@ -36,6 +36,23 @@ const Projects = () => {
                 </figure>
                 </article>
             </div>
+            {/* budget tracker app */}
+            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">Budget Tracker</p>
+                <a className="subtitle" href="https://github.com/jennyk1989/jam" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github
+                </a>
+                <a className="subtitle" href="https://ancient-lake-76105.herokuapp.com/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
+                <figure className="image is-4by3">
+                    <img src={budgetapp} alt={"budgetapp"}/>
+                </figure>
+                </article>
+            </div>
             {/* MJM */}
             <div className="tile is-parent">
                 <article className="tile is-child box">
