@@ -8,6 +8,7 @@ import calculator from '../assets/calculator.png';
 import weatherDashboard from '../assets/weather-dashboard.png';
 import noteTaker from '../assets/note-taker.png';
 import taskmaster from '../assets/task-master.png';
+import jam from '../assets/jam.png';
 
 const Projects = () => {
   return (
@@ -36,10 +37,10 @@ const Projects = () => {
                 </figure>
                 </article>
             </div>
-            {/* budget tracker app */}
+            {/* jam app */}
             <div className="tile is-parent">
                 <article className="tile is-child box">
-                <p className="title">Budget Tracker</p>
+                <p className="title">JAM</p>
                 <a className="subtitle" href="https://github.com/jennyk1989/jam" >
                     <FontAwesomeIcon icon={faLink} className="mr-2"/>
                     Github
@@ -49,7 +50,7 @@ const Projects = () => {
                     App
                 </a>
                 <figure className="image is-4by3">
-                    <img src={budgetapp} alt={"budgetapp"}/>
+                    <img src={jam} alt={"budgetapp"}/>
                 </figure>
                 </article>
             </div>
