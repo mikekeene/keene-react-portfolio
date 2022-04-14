@@ -2,6 +2,7 @@ import React from 'react'
 //import coverimg from '../assets/cover-image.jpg';
 import headshot from '../assets/headshot.jpg';
 
+
 const Cover = () => {
   return (
     <section className="hero is-danger-light">
