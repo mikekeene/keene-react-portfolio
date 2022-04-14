@@ -7,6 +7,7 @@ import clearSkies from '../assets/ClearSkies.jpeg';
 import calculator from '../assets/calculator.png';
 import weatherDashboard from '../assets/weather-dashboard.png';
 import noteTaker from '../assets/note-taker.png';
+import taskmaster from '../assets/task-master.png';
 
 const Projects = () => {
   return (
@@ -120,7 +121,24 @@ const Projects = () => {
                 </figure>
                 </article>
             </div>
-        
+                            {/* JAM Task Master */}
+                            <div className="tile is-parent">
+                <article className="tile is-child box">
+                <p className="title">JAM Task Master</p>
+                <a className="subtitle" href="https://github.com/jennyk1989/jam" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2"/>
+                    Github Link
+                </a>
+                <a className="subtitle" href="https://ancient-lake-76105.herokuapp.com/" >
+                    <FontAwesomeIcon icon={faLink} className="mr-2 ml-2"/>
+                    App
+                </a>
+                <figure className="image is-4by3">
+                    <img src={taskmaster} alt={"taskmaster"} />
+                </figure>
+                </article>
+                </div>
+
         </div>
     </div>
   )
